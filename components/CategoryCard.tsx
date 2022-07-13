@@ -14,7 +14,7 @@ const CategoryCard: React.FC<CategoryProps> = ({
   return (
     <React.Fragment>
       <button
-        className='flex items-baseline justify-start pñ-7 rounded-md bg-gray-50 py-2 hover:bg-gray-100'
+        className='flex items-baseline justify-start pl-7 rounded-md bg-gray-50 py-2 hover:bg-gray-100'
         onClick={() => handleFilter(group)}
       >
         <span
